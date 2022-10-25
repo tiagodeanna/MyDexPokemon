@@ -1,12 +1,6 @@
-//
-//  PokeTableViewCell.swift
-//  MyDexPokemon
-//
-//  Created by Tiago Deanna on 23/10/22.
-//
-
 import UIKit
 import Reusable
+
 class PokeTableViewCell: UITableViewCell, NibLoadable, Reusable {
     
     @IBOutlet weak var pokeimageView: UIImageView!
